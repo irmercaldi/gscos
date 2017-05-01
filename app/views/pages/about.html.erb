@@ -1,7 +1,25 @@
 <% content_for :title do %>About<% end %>
-<h3>About the Website</h3>
-<p>
-This web application was created with
-<%= link_to('Rails Composer', 'http://railsapps.github.io/rails-composer/') %>
-from the <%= link_to('RailsApps project', 'http://railsapps.github.io/') %>.
-</p>
+<head>
+  <%= stylesheet_link_tag    'about', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
+<h3 class="head1">About Granite State Clean Out Services</h3>
+
+
+<div class="row">
+    <div class="col-sm-6">
+        <h2>Services Offered</h2>
+        <ul>
+          <li>Snow Removal</li>
+          <li>General Maintenance</li>
+          <li>Lawn Care</li>
+          <li>Winterization</li>
+          <li>Debris Removal</li>
+          <li>Lock Changes</li>
+          <li>Much More...</li>
+        </ul>
+    </div>
+    <div class="col-sm-6">
+      <h2>Areas Covered</h2>
+        
+    </div>
+</div>
